@@ -1,0 +1,48 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:d="urn:import:com.google.gwt.dev">
+   <g:HTMLPanel ui:field="main" >
+  <table align="center" >
+   <tr>
+	<td>
+	
+		<g:ListBox multipleSelect="true" ui:field="leaveList" width="200px" >
+			<g:item value='1'>
+				Casual Leave
+			</g:item>
+			<g:item value='2'>
+				Sick Leave
+			</g:item>
+			<g:item value='3'>
+				Privilege Leave
+			</g:item>
+		</g:ListBox>
+	  
+	</td>
+ 	<td>
+	
+	
+	<g:ListBox multipleSelect="true" ui:field="assignedLeaveList" width="200px" >
+			<g:item value='1'>
+				Casual Leave
+			</g:item>
+			<g:item value='2'>
+				Sick Leave
+			</g:item>
+			<g:item value='3'>
+				Privilege Leave
+			</g:item>
+		</g:ListBox>
+	
+	</td>
+	
+</tr>
+
+<g:FlexTable borderWidth="10px" title="DisplayEmployee" >
+
+</g:FlexTable>
+
+</table>
+
+   </g:HTMLPanel>
+</ui:UiBinder>

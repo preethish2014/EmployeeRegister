@@ -1,0 +1,24 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+
+	<g:HTMLPanel>
+		<h1> Employee Registration  </h1>
+
+		<g:Label ui:field="Name" text=" Name" />
+		<g:TextBox ui:field="empName" />
+		<g:Label ui:field="age" text="Age" />
+		<g:TextBox ui:field="empAge" />
+		<g:Label ui:field="phone" text="Phone No:" />
+		<g:TextBox ui:field="empphone" />
+		<g:Label ui:field="email" text="Email" />
+		<g:TextBox ui:field="empEmail" />
+		<g:Label ui:field="address" text="Address" />
+		<g:TextArea ui:field="empAddress" />
+
+
+		<g:Button ui:field="addEmployee" text="Submit" />
+
+	</g:HTMLPanel>
+</ui:UiBinder>

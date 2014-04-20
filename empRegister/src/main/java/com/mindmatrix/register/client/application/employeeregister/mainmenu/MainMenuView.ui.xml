@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+             
+    <g:HTMLPanel ui:field="main">
+    <h2>  Employee Menu</h2>
+    <g:Button ui:field="addEmployee" text="Employee Register"/>
+    <g:Button ui:field="viewEmployeeList" text="View Employee Details"/>        
+    </g:HTMLPanel>
+   
+</ui:UiBinder>
